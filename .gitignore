@@ -1,0 +1,43 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+ws-client/dist
+ws-client/tmp
+ws-client/out-tsc
+ws-client/bazel-out
+
+# Node
+ws-client/node_modules
+ws-server/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+ws-client/.idea/
+ws-client/.project
+ws-client/.classpath
+ws-client/.c9/
+ws-client/*.launch
+ws-client/.settings/
+ws-client/*.sublime-workspace
+
+# Visual Studio Code
+ws-client/.vscode/*
+ws-client/!.vscode/settings.json
+ws-client/!.vscode/tasks.json
+ws-client/!.vscode/launch.json
+ws-client/!.vscode/extensions.json
+ws-client/.history/*
+
+# Miscellaneous
+ws-client/.angular/cache
+ws-client/.sass-cache/
+ws-client/connect.lock
+ws-client/coverage
+ws-client/libpeerconnection.log
+ws-client/testem.log
+ws-client/typings
+
+# System files
+ws-client/.DS_Store
+ws-client/Thumbs.db
