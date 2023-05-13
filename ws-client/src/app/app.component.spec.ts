@@ -44,17 +44,4 @@ describe('AppComponent', () => {
       expect(component.isLoading).toBeFalse();
     })
   });
-
-  xit(`should have as title 'ws-client'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    // expect(app.title).toEqual('ws-client');
-  });
-
-  xit('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ws-client app is running!');
-  });
 });
