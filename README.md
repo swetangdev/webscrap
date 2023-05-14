@@ -46,8 +46,3 @@ Frontend : [`cd ./ws-client`](https://github.com/swetangdev/webscrap/tree/master
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-------------------------------------------------------------------------------------------------
-
-### Ref Demo 
-
-![image](https://github.com/swetangdev/webscrap/assets/46344128/28b7b123-3b9a-4225-bc8b-1331002b12e2)
